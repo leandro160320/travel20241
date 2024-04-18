@@ -1,7 +1,14 @@
 import Image from "next/image";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
-   <h1 className="text-center">Olá</h1>
+    <div>
+       <Header/>
+       <Banner/>
+    </div>
+    
+   
   );
 }
