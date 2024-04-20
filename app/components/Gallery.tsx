@@ -5,7 +5,7 @@ export default function Gallery(){
             <h1 className="text-[#FF6403] mt-20">Our Tur</h1>
             <h1 className="font-bold text-7xl my-6">Gallery</h1>
             <div className="border-b-4 border-[#FF6403] my-6 mx-40"></div>
-            <div className="grid grid-cols-2 gap-2 mx-4">
+            <div className="grid grid-cols-2 gap-2 mx-4 lg:grid-cols-4 gap-4 lg:justify-items-stretch">
             <img src="/img/gallery-1.jpg.png" alt="" />
             <img src="/img/gallery-2.jpg.png" alt="" />
             <img src="/img/gallery-3.jpg.png" alt="" />

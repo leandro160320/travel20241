@@ -1,7 +1,7 @@
 
 export default function section(){
     return(
-        <div className="grid grid-cols-2 gap-4 mx-4 my-20">
+        <div className="grid grid-cols-2 gap-4 mx-4 my-20 lg:grid-cols-4 lg:justify-items-stretch">
             
             <img src="/img/div.tour__card.png" alt="" />
             <img src="/img/div.tour__card (1).png" alt="" />
